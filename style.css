@@ -218,6 +218,7 @@ header .info-text .scroll::before{
 @media screen and (max-width: 720px) {
     header .info-text h1{
         font-size: 4rem;
+        text-align: center;
     }
 
     header .info-text h3{

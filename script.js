@@ -1,7 +1,7 @@
 particlesJS("particles", {
     particles: {
         number: {
-            value: 100,
+            value: 221,
             density: {
                 enable: true,
                 value_area: 800
@@ -11,7 +11,7 @@ particlesJS("particles", {
             value: "#ffffff"
         },
         shape: {
-            type: "circle",
+            type: "triangle",
             stroke: {
                 width: 0,
                 color: "#000000"

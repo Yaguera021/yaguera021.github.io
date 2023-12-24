@@ -115,7 +115,7 @@ header .info-text .scroll::before{
     font-size: 1.3em;
     color: #fff;
     border: 1px solid transparent;
-    padding: 10px 50px;
+    padding: 10px 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     border-radius: 6px;
     transition: all 0.3s ease;
@@ -194,6 +194,10 @@ header .info-text .scroll::before{
 
 #features .feature-cards .card .info h1{
     text-align: center;
+}
+
+#features .header h1{
+    font-size: 1.2rem;
 }
 
 #features .feature-cards .card .info p{

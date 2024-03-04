@@ -181,7 +181,7 @@ header .info-text .scroll::before{
     flex-direction: column;
     align-items: center;
     flex: 1;
-    min-width: 350px;
+    min-width: 320px;
 }
 
 #features .feature-cards .card .info i{

@@ -2,7 +2,7 @@
   --main-bg-color: #2c0575;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -12,7 +12,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 body {
@@ -46,7 +46,7 @@ header .info-text {
 header .info-text h1 {
   font-size: 5rem;
   font-weight: 500;
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
 }
 
 header .info-text h3 {
@@ -71,7 +71,7 @@ header .info-text .scroll::before {
   top: -16px;
   left: -16px;
   z-index: -1;
-  content: '';
+  content: "";
   width: 44px;
   height: 44px;
   box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
@@ -170,7 +170,7 @@ header .info-text .scroll::before {
   color: #fff;
   font-size: 1.7rem;
   font-weight: bold;
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
 }
 
 #about .card .info p,
@@ -261,7 +261,7 @@ header .info-text .scroll::before {
   font-size: 1.5em;
   text-decoration: none;
   font: bold;
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
   background-color: transparent;
 }
 
@@ -296,4 +296,18 @@ header .info-text .scroll::before {
   color: #ffffff;
   border: 1px solid #ffffff;
   transform: scale(1.21);
+}
+
+.download-btn {
+  background-color: #5900ff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #4500b3;
 }
